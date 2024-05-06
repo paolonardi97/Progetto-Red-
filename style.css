@@ -1,0 +1,164 @@
+:root {
+    --red: #bb0a21;
+    --grey: #ECECEC;
+
+}
+
+body {
+    margin-bottom: 0%;
+}
+
+h1,
+h3,
+h2,
+h4 {
+    color: var(--red);
+    opacity: 100%;
+}
+
+.logocustom {
+    height: 100px;
+}
+
+.listcustom {
+    list-style: none;
+    width: 500px;
+}
+
+header {
+    position: relative;
+    background: url(./mountains2.png), linear-gradient(rgb(255, 255, 255) 0%, transparent),  url(switzerland-862870_1920.jpg);
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.altezza {
+    height: 100vh;
+}
+
+/* .mountains {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+} */
+
+.trees-bg{
+    background-image: url(./single.png);
+     background-size: 50%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+.icone {
+    color: var(--red) !important;
+
+
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: var(--red) !important;
+}
+
+
+.pallino::before {
+    position: absolute;
+    content: "";
+    border: 1px solid darkred;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    left: -10px;
+
+}
+
+.primasezione {
+    background-color: #ECECEC;
+}
+
+
+.bottone{
+    background-image: url(trees2.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
+.btn{
+    color: white;
+    background-color:#8B0102 ;
+}
+
+
+
+p {
+    color: black;
+}
+.line {
+    border-left: 2px solid darkred;
+    position: relative;
+}
+.alberi2{
+    width: 100%;
+    position: absolute;
+    bottom:  0px;
+    left: 0px;
+   right: 800px;
+    
+}
+
+
+.containercustom {
+    color: #f8f9fb;
+    ;
+}
+
+.image-profile {
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--red);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.image-escursioni {
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.riga-esperienze {
+    padding: 50px;
+    margin-top: 100px;
+    
+}
+
+.container-servizi {
+    background-color: var(--grey);
+  
+}
+
+.container-team {
+    background-color: var(--grey);
+    color: white;
+}
+
+
+
+footer {
+    background-color: #8B0102;
+    color: white;
+
+}
+
+.form {
+    border: 1px solid black;
+    height: 400px;
+    background-color: var(--grey);
+}
